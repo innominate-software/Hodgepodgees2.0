@@ -18,6 +18,15 @@
     background-color:darkgray;
   }
 
+  li{
+    list-style-type: none;
+  }
+
+  #sidebarList{
+    margin-top: 20%;
+    height: 80%;
+  }
+
 </style>
 
 </head>
@@ -27,11 +36,23 @@
 
 <div class="col-lg-3 d-none d-lg-inline sidebar">
 
+  <ul id='sidebarList'>
 
+    <li>Categories</li>
+      <ul>
+        <li><label for="firstC">First Category</label><input type="checkbox" id="firstC"></li>
+        <li><label for="secondC">Second Category</label><input type="checkbox" id="secondC"></li>
+        <li><label for="thirdC">Third Category</label><input type="checkbox" id="thirdC"></li>
+      </ul>
+<!-- These will probably want a name and value if we start using them -->
+    <li>Sizes</li>
+      <ul>
+        <li><label for="firstS">First Size</label><input type="checkbox" id="firstS"></li>
+        <li><label for="secondS">Second Size</label><input type="checkbox" id="secondS"></li>
+        <li><label for="thirdS">Third Size</label><input type="checkbox" id="thirdS"></li>
+      </ul>
+  </ul>
 
-
-
-  
 </div>
 
 <div class="container col-12 col-lg-9">
