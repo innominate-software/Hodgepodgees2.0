@@ -1,1 +1,58 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+    --main-bg-color: #FEFCFD; 
+    --light-blue: #B4CCD0;
+    --light-brown: #D0C1BA;
+    --light-yellow: #F0EADA;
+    --light-green: #DADED0;
+
+  }
+
+  @font-face {
+    font-family: OpenSans;
+    src: url("../src/assets/fonts/OpenSans-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: OpenSansItalic;
+    src: url("../src/assets/fonts/OpenSans-LightItalic.ttf");
+  }
+
+  h4 {
+      font-family: "OpenSans";
+  }
+
+
+.home-page-container {
+    background: var(--main-bg-color);
+    padding: 25px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    /* transition: .5s ease; */
+    background-image: linear-gradient(to left, rgba(0,0,0,.9) ,rgba(0,0,0,.7) , rgba(0,0,0,0));
+  }
+
+  .banner {
+      position: relative;
+  }
+  
+  /* .banner:hover .overlay {
+    opacity: 1;
+  }
+   */
