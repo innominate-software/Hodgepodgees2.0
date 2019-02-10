@@ -1,0 +1,9 @@
+.navbar {
+    height: 100px;
+}
+
+.navbar-brand {
+    border-right: 1px solid #fff;
+    padding-right: 30px;
+    font-size: 30px;
+}
